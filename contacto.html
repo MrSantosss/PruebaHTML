@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - MrSantosss</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Mr Santosss</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="presentacion.html">Sobre mí</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contacto">
+      <h2>¡Pongámonos en contacto!</h2>
+      <p>Si tienes alguna consulta o estás interesado en trabajar conmigo, no dudes en enviarme un mensaje.</p><hr>
+
+      <form action="mailto:jhonalejandrosantosmurillo@gmail.com" method="POST" enctype="text/plain">
+        <label for="nombre">Tu nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required /> <br>
+
+        <label for="email">Tu correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required /><br>
+
+        <label for="mensaje">Tu mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MrSantosss - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
